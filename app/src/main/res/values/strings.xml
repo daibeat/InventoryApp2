@@ -1,0 +1,116 @@
+
+<resources>
+
+<!--Title in the app bar-->
+<string name="app_name">Inventory App</string>
+
+
+<!-- Title text for the empty view, which describes the empty closet  image [CHAR LIMIT=50] -->
+<string name="empty_view_title_text">A bit empty here</string>
+
+<!-- Subtitle text for the empty view that prompts the user to add items [CHAR LIMIT=50] -->
+<string name="empty_view_subtitle_text">Start adding some items</string>
+
+
+<!-- Label for overflow menu option that inserts fake item data into the app [CHAR LIMIT=20] -->
+<string name="action_insert_dummy_data">Insert Dummy Data </string>
+
+<!-- Label for overflow menu option that deletes all items data in the app [CHAR LIMIT=20] -->
+<string name="action_delete_all_entries">Delete All Items </string>
+
+
+<!-- Label for editor menu option to save item and leave editor [CHAR LIMIT=20] -->
+<string name="action_save">Save</string>
+
+<!-- Label for editor overflow menu option that deletes the current items [CHAR LIMIT=20]-->
+<string name="action_delete">Delete</string>
+
+
+<!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+<string name="category_overview">Overview</string>
+
+<!-- Hint for the edit text field product name in the editor activity-->
+<string name="hint_for_product_name_editor">Item Name</string>
+
+<!-- Hint for the edit text field price in the editor activity -->
+<string name="hint_for_the_price_editor_field">Pls fill in a price above or = 0</string>
+
+
+<!-- Label for the quantity in the detail overview -->
+<string name="quantity_text_view_info">Select Quantity</string>
+
+<!-- Label for the Supplier name overview-->
+<string name="supplier_name_info">Supplier Name</string>
+
+<!-- Hint for the supplier Name-->
+<string name="hint_for_supplier_name">Please fill in a Supplier Name</string>
+
+<!-- Label for the supplier phone Number-->
+<string name="supplier_phone_number">Supplier Phone Number</string>
+
+<!-- HInt for the supplier phone Number -->
+<string name="hint_for_the_supplier_phone_number">Supplier phone number</string>
+
+<!-- title for the editor activity to insert a new product of items-->
+<string name="editor_activity_title_new_product_items">Add new product of items</string>
+
+<!-- title for the editor activity to edit an existing produc of items-->
+<string name="editor_activity_title_edit_existing_product_items">Edit the product</string>
+
+<!-- Dialog message when user is leaving editor but has not saved changes -->
+<string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+<!-- Dialog button text for the option to discard a users changes -->
+<string name="discard">Discard</string>
+
+<!-- Dialog button text for the option to keep editing the current items-->
+<string name="keep_editing">Keep editing</string>
+
+
+<!-- Toast message in editor when new clothes product has failed to be inserted-->
+<string name="editor_insert_items_failed">Error with saving new item</string>
+
+<!-- Toast message in editor when new items  has been successfully inserted -->
+<string name="editor_insert_items_successful">Item saved</string>
+
+<!-- Dialog message to ask the user to confirm deleting the current item -->
+<string name="delete_dialog_msg">Delete this item?</string>
+
+<!-- Dialog button text for the option to confirm deleting the current item -->
+<string name="delete">Delete</string>
+
+
+<!-- Toast message in editor when the current items failed to be deleted -->
+<string name="editor_delete_items_failed">Error with deleting item</string>
+
+<!-- Toast message in editor when the current items were successfully deleted -->
+<string name="editor_delete_items_successful">Item deleted</string>
+
+
+<!-- Dialog button text for the option to cancel deletion of the current items -->
+<string name="cancel">Cancel</string>
+
+<!-- Toast when there is nothing filled in -->
+<string name="editor_fill_in">Please fill in the blank fields</string>
+
+<!-- Toast when quantity edit text is left empty -->
+<string name="editor_quantity_field_cant_be_empty">Please select quantity</string>
+
+<!-- Toast that quantity cant be less then 0-->
+<string name="editor_quantity_cant_be_less_then_0">Quantity can not be less then 0</string>
+
+<!-- question for when the name of the item is empty -->
+<string name="editor_question_for_empty_field_name">What is the name of the item?</string>
+
+<!-- question for the price of the item is empty -->
+<string name="editor_question_for_empty_field_price">What is the price for the item?</string>
+
+<!-- question for when the quantity for the product is empty -->
+<string name="editor_question_for_empty_field_quantity">What is the quantity?</string>
+
+<!-- question for when the supplier name field is empty -->
+<string name="editor_question_for_empty_field_supplier_name">What is the name of the supplier?</string>
+
+<!-- question for when the supplier phone number field is empty -->
+<string name="editor_question_for_empty_field_supplier_phone_number">What is the phone number of the supplier?</string>
+</resources>

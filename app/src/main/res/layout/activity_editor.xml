@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EditorActivity">
+
+    <!-- Overview category -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            style="@style/textViewInfoStyle"
+            android:text="@string/category_overview" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:paddingLeft="4dp">
+
+            <!-- Product Name field -->
+            <EditText
+                android:id="@+id/edit_product_name"
+                style="@style/EditorFieldStyle2"
+                android:hint="@string/hint_for_product_name_editor"
+                android:inputType="textCapWords" />
+
+            <!-- Price field -->
+            <EditText
+                android:id="@+id/edit_price_field"
+                style="@style/EditorFieldStyle2"
+                android:hint="@string/hint_for_the_price_editor_field"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Quantity category -->
+    <LinearLayout style="@style/LinearLayoutContainer">
+
+        <TextView
+            style="@style/textViewInfoStyle"
+            android:text="@string/quantity_text_view_info" />
+
+        <ImageButton
+            android:id="@+id/edit_quantity_increase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/plus_quantity_button_image" />
+
+        <EditText
+            android:id="@+id/edit_item_quantity"
+            style="@style/EditorFieldStyle"
+            android:gravity="center_horizontal"
+            android:inputType="number" />
+
+        <ImageButton
+            android:id="@+id/edit_quantity_decrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/minus_quantity_button_image" />
+
+    </LinearLayout>
+    <!-- Supplier Name Category -->
+    <LinearLayout style="@style/LinearLayoutContainer">
+
+        <TextView
+            style="@style/textViewInfoStyle"
+            android:layout_width="4dp"
+            android:layout_weight="1"
+            android:text="@string/supplier_name_info" />
+
+        <EditText
+            android:id="@+id/edit_supplier_name_text_field"
+            style="@style/EditorFieldStyle"
+            android:layout_weight="3"
+            android:hint="@string/hint_for_supplier_name" />
+
+    </LinearLayout>
+
+    <!-- Supplier Phone Number Category -->
+    <LinearLayout style="@style/LinearLayoutContainer">
+
+        <TextView
+            style="@style/textViewInfoStyle"
+            android:text="@string/supplier_phone_number" />
+
+        <EditText
+            android:id="@+id/edit_phone_text_field"
+            style="@style/EditorFieldStyle"
+            android:layout_weight="2"
+            android:hint="@string/hint_for_the_supplier_phone_number"
+            android:inputType="phone" />
+
+        <ImageButton
+            android:id="@+id/call_supplier_phone_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_call_supplier_button" />
+    </LinearLayout>
+
+</LinearLayout>

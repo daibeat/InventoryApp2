@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/product_clothes_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="hi"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/price_clothes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-small"
+            android:text="hi"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-small"
+            android:text="hi"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/sell_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_sell_clothes_button" />
+
+</LinearLayout>
